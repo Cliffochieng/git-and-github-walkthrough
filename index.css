@@ -1,11 +1,13 @@
 body{
-    background-color: yellow;
+    background-color:orange;
+    font-family: serif;
+    text-decoration: none;
 }
 
 nav {
     max-width: 960px;
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 15px 0;
     margin-right: 0%;
  }
  nav>ul{
@@ -13,32 +15,64 @@ nav {
  }
  nav>ul>li{display:inline-block;}
  nav>ul>li>a{
- padding: 18px;
- margin-right: 0;
+ padding: 20px;
+ margin-right: 0%;
  text-transform: uppercase;
- text-decoration: none;nav {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 10px 0;
-    margin-right: 0%;
+ text-decoration: none;
+
  }
  nav>ul{
    text-align:right;
  }
  nav>ul>li{display:inline-block;}
  nav>ul>li>a{
- padding: 18px;
- margin-right: 0;
+ padding: 0px;
+ margin-right: 0%;
  text-transform: uppercase;
  text-decoration: none;
  display: block;
- color: red;
+ color: rgba(3, 18, 156, 0.945);
  }
  nav>ul>li>a:hover {
  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
- background: rgba(221, 109, 35, 0.678);
- color: rgba(0, 35, 122, 0.7);
+ background: rgba(213, 236, 7, 0.678);
+ color: rgba(22, 0, 122, 0.7);
+ }
+ .selector{
+   background-color: rgb(3, 156, 41);
+   padding-top: 20px;
+ }
+ #container{
+   background-color: rgb(3, 156, 41);
  }
  
- 
-
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgb(3, 156, 41);
+  text-justify: auto;
+  font-size: xx-large;
+  text-decoration-line: underline;
+}
+.description{
+  background-color: rgb(3, 156, 41);
+  font-size: x-large;
+}
+.objectives{
+  font-size: x-large ;
+  text-align: start;
+}
+.display{
+  font-size: x-large;
+  text-align: start;
+  text-decoration: none;
+}
+.footer{
+ text-align: center;
+ font-size: larger;
+ color: rgba(223, 12, 12, 0.7);
+}
+.ojectives>h3>{
+  text-decoration-line: underline;
+  font-size: x-large;
+}
