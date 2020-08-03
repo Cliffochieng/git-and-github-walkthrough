@@ -2,8 +2,7 @@ body{
     background-color:orange;
     font-family: serif;
     text-decoration: none;
-    padding-top: 0px;
-    margin-top: auto;
+
 }
 
 nav {
@@ -43,8 +42,8 @@ nav {
  }
  .selector{
    background-color: rgb(3, 156, 41);
-   padding-top: 5px;
-    margin-top:auto;
+   padding-top:0px;
+    margin-top: auto;
 
  }
  #container{
