@@ -2,6 +2,8 @@ body{
     background-color:orange;
     font-family: serif;
     text-decoration: none;
+    padding-top: 0px;
+    margin-top: auto;
 }
 
 nav {
@@ -19,14 +21,15 @@ nav {
  margin-right: 0%;
  text-transform: uppercase;
  text-decoration: none;
-
+ word-spacing: inherit;
  }
  nav>ul{
    text-align:right;
+   word-spacing: inherit;
  }
  nav>ul>li{display:inline-block;}
  nav>ul>li>a{
- padding: 0px;
+ padding: 20px;
  margin-right: 0%;
  text-transform: uppercase;
  text-decoration: none;
@@ -35,12 +38,14 @@ nav {
  }
  nav>ul>li>a:hover {
  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
- background: rgba(213, 236, 7, 0.678);
+ background: rgba(236, 7, 7, 0.678);
  color: rgba(22, 0, 122, 0.7);
  }
  .selector{
    background-color: rgb(3, 156, 41);
-   padding-top: 20px;
+   padding-top: 5px;
+    margin-top:auto;
+
  }
  #container{
    background-color: rgb(3, 156, 41);
@@ -51,8 +56,9 @@ h1{
   text-transform: uppercase;
   background-color: rgb(3, 156, 41);
   text-justify: auto;
-  font-size: xx-large;
+  font-size:xx-large;
   text-decoration-line: underline;
+  font-weight: bolder;
 }
 .description{
   background-color: rgb(3, 156, 41);
@@ -70,9 +76,10 @@ h1{
 .footer{
  text-align: center;
  font-size: larger;
- color: rgba(223, 12, 12, 0.7);
+ color: blue;
 }
-.ojectives>h3>{
+h3{
   text-decoration-line: underline;
   font-size: x-large;
+
 }
