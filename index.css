@@ -10,6 +10,7 @@ nav {
     margin: 0 auto;
     padding: 15px 0;
     margin-right: 0%;
+    padding-top: 0px;
  }
  nav>ul{
    text-align:right;
@@ -48,6 +49,7 @@ nav {
  }
  #container{
    background-color: rgb(3, 156, 41);
+   padding-top: 0px;
  }
  
 h1{
@@ -81,4 +83,7 @@ h3{
   text-decoration-line: underline;
   font-size: x-large;
 
+}
+h3>.description{
+  text-decoration-line: overline;
 }
